@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Sorting}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Merge Sort (with Inversion count)}{1}{}%
+\contentsline {section}{\numberline {2}Graphs}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Depth First Traversal (base)}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Breadth First Traversal (base)}{2}{}%
+\contentsline {section}{\numberline {3}Flows}{2}{}%
