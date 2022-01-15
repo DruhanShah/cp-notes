@@ -3,4 +3,5 @@
 \contentsline {section}{\numberline {2}Graphs}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Depth First Traversal (base)}{2}{}%
 \contentsline {subsection}{\numberline {2.2}Breadth First Traversal (base)}{2}{}%
-\contentsline {section}{\numberline {3}Flows}{2}{}%
+\contentsline {section}{\numberline {3}Strings}{2}{}%
+\contentsline {subsection}{\numberline {3.1}KMP Algorithm}{2}{}%
