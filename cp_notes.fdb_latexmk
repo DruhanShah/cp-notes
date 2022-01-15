@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1642161233 "/home/druhan/Desktop/Druhan/RandomProjects/CP Notes/cp_notes.tex" "cp_notes.pdf" "cp_notes" 1642161233
-  "/home/druhan/Desktop/Druhan/RandomProjects/CP Notes/cp_notes.tex" 1642161233 2317 b16fabf055b9be5359525388548dfa56 ""
+["pdflatex"] 1642222720 "/home/druhan/Desktop/Druhan/RandomProjects/CP Notes/cp_notes.tex" "cp_notes.pdf" "cp_notes" 1642222720
+  "/home/druhan/Desktop/Druhan/RandomProjects/CP Notes/cp_notes.tex" 1642222720 2315 f384543249330041b586688b2bcd2aa9 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -48,9 +48,9 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1638861425 325418 2cbd6d9256053e2756791ea3e94f580a ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1638861427 1429020 6c0bba76e8922e442de06388497a62f1 ""
   "/usr/local/texlive/2021/texmf.cnf" 1638861425 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "cp_notes.aux" 1642161233 684 5134d5e75996ed4ee01a5f2e4d36d222 "pdflatex"
-  "cp_notes.tex" 1642161233 2317 b16fabf055b9be5359525388548dfa56 ""
-  "cp_notes.toc" 1642161233 406 198c0491288334791b619a8e9ccea4ab "pdflatex"
+  "cp_notes.aux" 1642222720 684 5134d5e75996ed4ee01a5f2e4d36d222 "pdflatex"
+  "cp_notes.tex" 1642222720 2315 f384543249330041b586688b2bcd2aa9 ""
+  "cp_notes.toc" 1642222720 406 198c0491288334791b619a8e9ccea4ab "pdflatex"
   "styles.tex" 1642161221 700 024b1a43e37e27d1b256dcf7b349f906 ""
   (generated)
   "cp_notes.aux"

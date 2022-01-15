@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  14 JAN 2022 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  15 JAN 2022 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -174,15 +174,15 @@ LaTeX Font Info:    ... okay on input line 8.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
+* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 738.0645pt, 28.45274pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=528.93675pt
-* \textheight=709.61174pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
-* \topmargin=-66.59087pt
+* \textwidth=557.38951pt
+* \textheight=738.0645pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -225,13 +225,13 @@ LaTeX Font Info:    ... okay on input line 8.
 Here is how much of TeX's memory you used:
  4531 strings out of 480313
  63616 string characters out of 5897047
- 865459 words of memory out of 5000000
+ 871452 words of memory out of 5000000
  22397 multiletter control sequences out of 15000+600000
  409149 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,6n,65p,290b,1728s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,6n,65p,290b,1183s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on cp_notes.pdf (2 pages, 81055 bytes).
+Output written on cp_notes.pdf (2 pages, 81100 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
