@@ -1,7 +1,8 @@
-\contentsline {section}{\numberline {1}Primes and factorization}{1}{}%
+\contentsline {section}{\numberline {1}Basic NT}{1}{}%
 \contentsline {subsection}{\numberline {1.1}Prime factorization ($\mathcal {O}(\sqrt {n})$)}{1}{}%
 \contentsline {subsection}{\numberline {1.2}Sieve of Eratosthenes}{1}{}%
-\contentsline {subsection}{\numberline {1.3}Linear Sieve}{2}{}%
+\contentsline {subsection}{\numberline {1.3}Linear Sieve}{1}{}%
+\contentsline {subsection}{\numberline {1.4}Extended Euclidean Algorithm}{2}{}%
 \contentsline {section}{\numberline {2}Sorting}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Merge Sort (with Inversion count)}{2}{}%
 \contentsline {section}{\numberline {3}Graphs}{2}{}%

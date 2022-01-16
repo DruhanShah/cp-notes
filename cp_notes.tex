@@ -8,23 +8,22 @@
 \begin{document}
     \maketitle
     \tableofcontents
-	\section*{Macros}
+% 	\section*{Macros}
 
 	
-	\begin{lstlisting}
-#define FASTIO() ios_base::sync_with_stdio(false); cin.tie(0)
-#define FOR(i,a,b) for(int (i)=(a); i<(b); i++)
-#define ROF(i,a,b) for(int (i)=(a); i>(b); i--)
-#define F first
-#define S second
-#define all(x) (x).begin(), (x).end()
-#define PB push_back
-#define MP make_pair
-typedef long long ll;
-typedef pair<int, int> pii;
-typedef vector<int> vi;\end{lstlisting}
+% 	\begin{lstlisting}
+% #define FASTIO() ios_base::sync_with_stdio(false); cin.tie(0)
+% #define FOR(i,a,b) for(int (i)=(a); i<(b); i++)
+% #define ROF(i,a,b) for(int (i)=(a); i>(b); i--)
+% #define F first
+% #define S second
+% #define all(x) (x).begin(), (x).end()
+% #define PB push_back
+% #define MP make_pair
+% typedef long long ll;
+% typedef pair<int, int> pii;\end{lstlisting}
 
-    \section{Primes and factorization}
+    \section{Basic NT}
         \subsection{Prime factorization ($\mathcal{O}(\sqrt{n})$)}
         
 
@@ -64,7 +63,22 @@ FOR(i,2,N+1) {
         lp[i*pr[j]] = pr[j];
 }       \end{lstlisting}
 
-
+    \subsection{Extended Euclidean Algorithm}
+    
+    \begin{lstlisting}
+int gcd(int a, int b, int& x, int& y) {
+    if (b==0) {
+        x = 1;
+        y = 0;
+        return a;
+    }
+    int x1, y1;
+    int d = gcd(b, a%b, x1, y1);
+    x = y1;
+    y = x1- y1*(a/b);
+    return d;
+}
+    \end{lstlisting}
 
     \section{Sorting}
         \subsection{Merge Sort (with Inversion count)}
