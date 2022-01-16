@@ -1,6 +1,6 @@
 \documentclass{article}
-\usepackage[margin=1cm]{geometry}
-\usepackage{amsmath, xcolor, listings}
+\usepackage[margin=1.3cm]{geometry}
+\usepackage{amsmath, amsfonts, xcolor, listings}
 \author{Druhan Shah (ShockWave)}
 \title{Competitive Programming notes}
 \input{styles.tex}
@@ -15,7 +15,6 @@
 #define FASTIO() ios_base::sync_with_stdio(false); cin.tie(0)
 #define FOR(i,a,b) for(int (i)=(a); i<(b); i++)
 #define ROF(i,a,b) for(int (i)=(a); i>(b); i--)
-#define MOD 1000000007
 #define F first
 #define S second
 #define all(x) (x).begin(), (x).end()
@@ -24,6 +23,48 @@
 typedef long long ll;
 typedef pair<int, int> pii;
 typedef vector<int> vi;\end{lstlisting}
+
+    \section{Primes and factorization}
+        \subsection{Prime factorization ($\mathcal{O}(\sqrt{n})$)}
+        
+
+        \begin{lstlisting}
+for(int i = 2; i*i<=n; i++)
+    if(n%i==0) {
+        p.push_back(i);
+        while(n%i==0)
+            n /= i;
+    }
+if(n>1) p.push_back(n);   \end{lstlisting}
+
+
+        \subsection{Sieve of Eratosthenes}
+
+        \begin{lstlisting}
+vector<bool> is_prime(n+1, true);
+is_prime[0] = is_prime[1] = false;
+for(int i = 2; i*i<=n; i++)
+    if(is_prime[i]) {
+        for(int j = i*i;j<=n; j+=i)
+            is_prime[j] = false;
+    }   \end{lstlisting}
+
+        \subsection{Linear Sieve}
+        
+
+        \begin{lstlisting}
+vector<int> lp(N+1);
+vector<int> pr;
+FOR(i,2,N+1) {
+    if(lp[i]==0) {
+        lp[i] = i;
+        pr.push_back(i);
+    }
+    for(int j = 0; j<(int)pr.size() && pr[j]<=lp[i] && i*pr[j]<=N; j++)
+        lp[i*pr[j]] = pr[j];
+}       \end{lstlisting}
+
+
 
     \section{Sorting}
         \subsection{Merge Sort (with Inversion count)}
@@ -68,8 +109,7 @@ ll merge(int arr[], int temp[], int left, int mid, int right) {
         temp[k++] = arr[i++];
     while (j <= right)
         temp[k++] = arr[j++];
-    for (i = left; i <= right; i++)
-        arr[i] = temp[i];
+    FOR(i,left,right+1) arr[i] = temp[i];
 
     return inv_count;
 }       \end{lstlisting}
@@ -102,7 +142,7 @@ ll bfs(bool visited[]) {
 }       \end{lstlisting}
 
     \section{Strings}
-        \subsection{KMP Algorithm} for pattern matching in a string:
+        \subsection{KMP Algorithm}
         
 
         \begin{lstlisting}
@@ -136,7 +176,6 @@ void KMPSearch(string pat, string txt)
 void computeLPSArray(string pat, int M, int lps[])
 {
     int len = 0;
-    
     lps[0] = 0;
     int i = 1;
     while (i<M) {
@@ -154,5 +193,5 @@ void computeLPSArray(string pat, int M, int lps[])
             }
         }
     }
-}		\end{lstlisting}
+}\end{lstlisting}
 \end{document}

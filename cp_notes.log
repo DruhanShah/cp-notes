@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  15 JAN 2022 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  16 JAN 2022 12:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -98,6 +98,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -174,15 +181,15 @@ LaTeX Font Info:    ... okay on input line 8.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
-* v-part:(T,H,B)=(28.45274pt, 738.0645pt, 28.45274pt)
+* h-part:(L,W,R)=(36.98866pt, 540.31767pt, 36.98866pt)
+* v-part:(T,H,B)=(36.98866pt, 720.99266pt, 36.98866pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=557.38951pt
-* \textheight=738.0645pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-80.81725pt
+* \textwidth=540.31767pt
+* \textheight=720.99266pt
+* \oddsidemargin=-35.28133pt
+* \evensidemargin=-35.28133pt
+* \topmargin=-72.28133pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -215,7 +222,14 @@ LaTeX Font Info:    ... okay on input line 8.
 \everyMPtoPDFconversion=\toks25
 )
 \c@lstlisting=\count287
- (./cp_notes.toc)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (./cp_notes.toc)
 \tf@toc=\write3
 \openout3 = `cp_notes.toc'.
 
@@ -223,18 +237,18 @@ LaTeX Font Info:    ... okay on input line 8.
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./cp_notes.aux) ) 
 Here is how much of TeX's memory you used:
- 4608 strings out of 480313
- 64339 string characters out of 5897047
- 952452 words of memory out of 5000000
- 22474 multiletter control sequences out of 15000+600000
- 409149 words of font info for 48 fonts, out of 8000000 for 9000
+ 4734 strings out of 480313
+ 66313 string characters out of 5897047
+ 975902 words of memory out of 5000000
+ 22584 multiletter control sequences out of 15000+600000
+ 411629 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,6n,65p,290b,1626s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on cp_notes.pdf (3 pages, 87363 bytes).
+ 55i,6n,65p,290b,1203s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on cp_notes.pdf (3 pages, 115707 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
