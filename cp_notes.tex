@@ -159,11 +159,14 @@ ll bfs(bool visited[]) {
         
         \begin{lstlisting}
 queue<int> tovisit, newvisit;
-void bfs(bool visited [], vector<int> adjacency[], int heights[], int height) {
+void bfs(bool visited [], int heights[], int height) {
     while(!tovisit.empty()) {
         heights[tovisit.front()] = height;
         for (int i : adjacency[tovisit.front()])
-            if(!visited[i]) {visited[i] = true; newvisit.push(i);}
+            if(!visited[i]) {
+                visited[i] = true;
+                newvisit.push(i);
+            }
         tovisit.pop();
     }
 }
@@ -177,8 +180,7 @@ void driver() {
         }
     }
     height++;
-}
-        \end{lstlisting}
+}\end{lstlisting}
     \section{Strings}
         \subsection{KMP Algorithm}
         

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  19 JAN 2022 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.12.7)  19 JAN 2022 10:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -432,18 +432,18 @@ Package rerunfilecheck Info: File `cp_notes.out' has not changed.
 (rerunfilecheck)             Checksum: 1B6F036CECA766356B4C5124D4B1B284;2118.
  ) 
 Here is how much of TeX's memory you used:
- 11741 strings out of 480313
- 176823 string characters out of 5897047
- 1410437 words of memory out of 5000000
+ 11743 strings out of 480313
+ 176853 string characters out of 5897047
+ 1423437 words of memory out of 5000000
  29294 multiletter control sequences out of 15000+600000
  411629 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,6n,65p,457b,1996s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on cp_notes.pdf (2 pages, 95925 bytes).
+Output written on cp_notes.pdf (2 pages, 95953 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 306 compressed objects within 4 object streams
- 188 named destinations out of 1000 (max. 500000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 308 compressed objects within 4 object streams
+ 190 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
