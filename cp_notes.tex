@@ -1,6 +1,6 @@
 \documentclass{article}
 \usepackage[margin=1.3cm]{geometry}
-\usepackage{amsmath, amsfonts, xcolor, listings}
+\usepackage{amsmath, amsfonts, xcolor, listings, hyperref, multicol}
 \author{Druhan Shah (ShockWave)}
 \title{Competitive Programming notes}
 \input{styles.tex}
@@ -8,6 +8,7 @@
 \begin{document}
     \maketitle
     \tableofcontents
+    \begin{multicols*}{2}
 % 	\section*{Macros}
 
 	
@@ -22,10 +23,8 @@
 % #define MP make_pair
 % typedef long long ll;
 % typedef pair<int, int> pii;\end{lstlisting}
-
     \section{Basic NT}
-        \subsection{Prime factorization ($\mathcal{O}(\sqrt{n})$)}
-        
+        \subsection{Prime factorization}
 
         \begin{lstlisting}
 for(int i = 2; i*i<=n; i++)
@@ -154,7 +153,32 @@ ll bfs(bool visited[]) {
         tovisit.pop();
     }
 }       \end{lstlisting}
+        
+        \subsection{Breadth First Traversal (for heights on spanning tree)}
 
+        
+        \begin{lstlisting}
+queue<int> tovisit, newvisit;
+void bfs(bool visited [], vector<int> adjacency[], int heights[], int height) {
+    while(!tovisit.empty()) {
+        heights[tovisit.front()] = height;
+        for (int i : adjacency[tovisit.front()])
+            if(!visited[i]) {visited[i] = true; newvisit.push(i);}
+        tovisit.pop();
+    }
+}
+
+void driver() {
+    while(!tovisit.empty()) {
+        bfs(visited,adjacency,heights,height);
+        while(!newvisit.empty()) {
+            tovisit.push(newvisit.front());
+            newvisit.pop();
+        }
+    }
+    height++;
+}
+        \end{lstlisting}
     \section{Strings}
         \subsection{KMP Algorithm}
         
@@ -208,4 +232,8 @@ void computeLPSArray(string pat, int M, int lps[])
         }
     }
 }\end{lstlisting}
+
+
+
+    \end{multicols*}
 \end{document}

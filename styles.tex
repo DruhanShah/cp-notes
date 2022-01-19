@@ -11,7 +11,7 @@
     stringstyle=\color{codepurple},
     basicstyle=\ttfamily\footnotesize,
     breakatwhitespace=false,         
-    breaklines=true,                 
+    breaklines=true,
     captionpos=b,                    
     keepspaces=true,
     showspaces=false,                
@@ -19,5 +19,8 @@
     showtabs=true,
     tabsize=1,
 }
+\makeatletter
+\def\lst@outputspace{{\ifx\lst@bkgcolor\empty\color{white}\else\lst@bkgcolor\fi\lst@visiblespace}}
+\makeatother
 
-\lstset{style=codestyle, language=c++}
+\lstset{style=codestyle, language=c++, columns=flexible}
