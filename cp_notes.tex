@@ -161,7 +161,7 @@ ll bfs(bool visited[]) {
 queue<int> tovisit, newvisit;
 void bfs(bool visited [], int heights[], int height) {
     while(!tovisit.empty()) {
-        heights[tovisit.front()] = height;
+        heights[tovisit.front()] = min(heights[tovisit.front()], height);
         for (int i : adjacency[tovisit.front()])
             if(!visited[i]) {
                 visited[i] = true;
