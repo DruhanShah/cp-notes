@@ -8,7 +8,7 @@
 \begin{document}
     \maketitle
     \tableofcontents
-    \begin{multicols*}{2}
+%   \begin{multicols*}{2}
 % 	\section*{Macros}
 
 	
@@ -78,6 +78,12 @@ int gcd(int a, int b, int& x, int& y) {
     return d;
 }
     \end{lstlisting}
+
+	\subsection{Binomial coefficients}
+	$$\binom{n}{k} = \binom{n-1}{k-1}+\binom{n-1}{k}$$
+	$$\sum_{i=0}^{m}\binom{n+i}{i} = \binom{n+m+1}{m}$$
+	$$\sum_{i=0}^{n}\binom{n-i}{i} = F_{n+1}$$
+	$$\binom{n}{k}\equiv n!\cdot(k!)^{-1}\cdot((n-k)!)^{-1}\mod{m}$$
 
     \section{Sorting}
         \subsection{Merge Sort (with Inversion count)}
@@ -237,5 +243,5 @@ void computeLPSArray(string pat, int M, int lps[])
 
 
 
-    \end{multicols*}
+%   \end{multicols*}
 \end{document}
